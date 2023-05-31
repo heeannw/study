@@ -1,0 +1,536 @@
+<title>회원가입</title>
+<h1>회원가입</h1>
+<head>
+    <style>
+        input[type="text"]:hover {
+            background-color: rgb(200, 244, 244);
+            cursor: pointer;
+        }
+        
+        input[type="radio"]:hover {
+            background-color: rgb(237, 178, 127);
+            cursor: crosshair;
+        }
+        
+        input[type="file"]:hover {
+            background-color: rgb(211, 176, 232);
+            cursor: pointer;
+        }
+        
+        input[type="date"]:hover {
+            background-color: rgb(243, 180, 243);
+            cursor: pointer;
+        }
+        
+        select:hover {
+            background-color: rgb(186, 247, 89);
+            cursor: pointer;
+        }
+        
+        textarea:hover {
+            background-color: rgb(32, 4, 243);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<form>
+    <div>
+        <label for="name">이름</label>
+        <input type="text">
+    </div>
+    <br>
+    <div>
+        <label for="gender">성별</label>
+        <input type="radio">
+        <label for="male">남자</label>
+        <input type="radio"checked>
+        <label for="female">여자</label>
+    </div>
+    <br>
+    <div>
+        <input type="file" name="file" value="file"><br>
+    </div>
+    <br>
+    <div>
+        <input type=date name="birthday" value="생년월일">
+        <label for="birthday">음력</label>
+        <input type="radio">
+        <br>
+        <input type=date name="birthday" value="생년월일">
+        <label for="birthday">양력</label>
+        <input type="radio">
+    </div>
+    <br>
+    <div>
+        <label for="age">나이</label>
+        <input type="text">
+    </div>
+    <br>
+    <div>
+        <label for="address">주소</label>
+        <input type="text">
+    </div>
+    <br>
+    <div>
+        <label for="reasons for joining">가입 이유:</label>
+        <select>
+            <option value="1">취업을 준비하기 위해서</option>
+            <option value="2">자기 계발을 위해서</option>
+            <option value="3">취미</option>
+            <option value="4">관심 있어서</option>
+            <option value="5">다양한 것을 경험하고 싶어서</option>
+          </select>
+    </div>
+    <br>
+    <div>
+        <label for="captcha">로봇방지:</label>
+        <input type="text" placeholder="보안문자 입력" />
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="가입">
+    </div>
+</form>
+
+<head>
+    <title>이력서</title>
+    <style>
+         #table1 {
+            border-color: violet;
+            background-color: #f1d0f1;
+        }
+
+        #table2 {
+            border-color: orange;
+            background-color: antiquewhite;
+        }
+        #table3 {
+            border-color: rgb(12, 44, 227);
+            background-color: #b1dced;
+        }
+        #table4 {
+            border-color: rgb(13, 230, 129);
+            background-color: #c1e7c0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d0c5e0;
+        }
+        h1 {
+            font-family: 'Helvetica', sans-serif;
+            color: #FFFFFF;
+        }
+
+        h2 {
+            font-family: 'Times New Roman', serif;
+            color: #FF0000;
+        }
+
+        h3 {
+            font-family: 'Courier New', monospace;
+            color: #ff6a00;
+        }
+        h4 {
+            font-family:Verdana,sans-serif;
+            color: #893e00;
+        }
+        a:hover li{
+            color: red;
+            cursor: pointer;
+        }
+        #table1:hover {
+            cursor: pointer;
+        }
+        
+        #table2:hover {
+            cursor: crosshair;
+        }
+        
+        #table3:hover {
+            cursor: move;
+        }
+        
+        #table4:hover {
+            cursor: help;
+        }
+        body{
+            background-image: url(https://thumb.ac-illust.com/e9/e9d2b5227cb0552e533b481a47c8207a_t.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100% 250px;
+
+        }
+    </style>
+</head>
+<ins><h1>이력서</h1></ins>
+<head>
+    <style>
+        li {color:aqua;}
+    </style>
+</head>
+<body>
+    <ui>
+        <a href="#신상"><li>신상</li></a>
+        <a href="#학력"><li>학력</li></a>
+        <a href="#경력"><li>경력</li></a>
+        <a href="#수상"><li>수상</li></a>
+    </ui>
+<div>
+    <footer>2302561 원희</footer>
+</div>
+</body>
+<img src="C:\Users\w0105\OneDrive\바탕 화면\웹 프론트 실습\중간고사\댕이 사진(웹프).jpg"alt="사진" width="200">
+<br>
+<body>
+    <table id="table1" border="1"><h1 id="신상">신상</h1>
+        <tr>
+          <td>이름</td>
+          <td>원희</td>
+         </tr>
+         <tr>
+            <td>영문</td>
+            <td>wonhee</td>
+         </tr>
+         <tr>
+            <td>생년월일</td>
+            <td>2004.01.11</td>
+         </tr>
+         <tr>
+            <td>주소</td>
+            <td>서울특별시 광진구</td>
+         </tr>
+         <tr>
+            <td>e-mail</td>
+            <td>wonheeann5435@gmail.com</td>
+         </tr>
+         <tr>
+            <td>연락처</td>
+            <td>010-1111-1111</td>
+         </tr>
+    </table>  
+    <br>
+    <table id="table2" border="1"><h2 id="학력">학력</h2>
+        <tr>
+            <td>학교명</td> <td>입학날짜</td> <td>졸업날짜</td> <td>소속</td> <td>학점</td>
+        </tr>
+        <tr>
+            <td>서울경수중학교</td><td>2017.03.02</td><td>2020.1.17</td><td>운동부</td><td>x</td>
+        </tr>
+        <tr>
+            <td>서울의료보건고등학교</td><td>2020.4.16</td><td>2023.01.06</td><td>보건간호과</td><td>x</td>
+        </tr>
+        <tr>
+            <td>옥스포드 대학교</td><td>2023.02.24</td><td>2026.02.13</td><td>경영학과</td><td>4.2</td>
+        </tr>
+    </table>
+    <table id="table3" border="1"><h3 id="경력">경력</h3>
+        <tr>
+            <td>자격증</td><td>발행기관</td><td>기간</td>
+        </tr>
+        <tr>
+            <td>간호조무사자격증</td><td>보건복지부</td><td>평생</td>
+        </tr>
+        <tr>
+            <td>ITQ 파워포인트</td><td>한국생성본부</td><td>2020.9.04~2025.9.04</td>
+        </tr>
+        <tr>
+            <td>ITQ 한글</td><td>한국생성본부</td><td>2020.9.04~2025.9.04</td>
+        </tr>
+    </table>
+    <table id="table4" border="1"><h4 id="수상">수상</h4>
+        <tr>
+            <td>수상</td><td>수상기관</td><td>수상년도</td>
+        </tr>
+        <tr>
+            <td>노벨평화상</td><td>노벨재단</td><td>2022.10.03</td>
+        </tr>
+        <tr>
+            <td>오바마 대통령상</td><td>미국정부</td><td>2018.10.10</td>
+        </tr>
+        <tr>
+            <td>나사 탐사상</td><td>NASA</td><td>2023.04.17</td>
+        </tr>
+    </table>
+    <br>
+    <audio src= "C:\Users\w0105\OneDrive\바탕 화면\웹 프론트 실습\중간고사\웹프 과제용 오디오.m4a"controls="controls"></audio>
+    <br>
+    <br>
+    <video controls="controls">
+        <source src="C:\Users\w0105\OneDrive\바탕 화면\웹 프론트 실습\중간고사\웹프과제용 비디오.mp4" type="video/mp4">
+    </video>
+</body>
+
+<head>
+    <title>이력서</title>
+    <style>
+        body {
+            display: flex;
+            font-family: Arial, sans-serif;
+            background-color: #d0c5e0;
+            padding: 20px;
+        }
+
+        #resume {
+            width: 50%;
+            margin-right: 20px;
+        }
+
+        #membership {
+            width: 50%;
+        }
+        #table1 {
+            border-color: violet;
+            background-color: #f1d0f1;
+        }
+
+        #table2 {
+            border-color: orange;
+            background-color: antiquewhite;
+        }
+        #table3 {
+            border-color: rgb(12, 44, 227);
+            background-color: #b1dced;
+        }
+        #table4 {
+            border-color: rgb(13, 230, 129);
+            background-color: #c1e7c0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d0c5e0;
+        }
+        h1 {
+            font-family: 'Helvetica', sans-serif;
+            color: #FFFFFF;
+        }
+
+        h2 {
+            font-family: 'Times New Roman', serif;
+            color: #FF0000;
+        }
+
+        h3 {
+            font-family: 'Courier New', monospace;
+            color: #ff6a00;
+        }
+        h4 {
+            font-family:Verdana,sans-serif;
+            color: #893e00;
+        }
+        a:hover li{
+            color: red;
+            cursor: pointer;
+        }
+        #table1:hover {
+            cursor: pointer;
+        }
+        
+        #table2:hover {
+            cursor: crosshair;
+        }
+        
+        #table3:hover {
+            cursor: move;
+        }
+        
+        #table4:hover {
+            cursor: help;
+        }
+        body{
+            background-image: url(https://thumb.ac-illust.com/e9/e9d2b5227cb0552e533b481a47c8207a_t.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100% 250px;
+
+        }
+    </style>
+</head>
+<ins><h1>이력서</h1></ins>
+<head>
+    <style>
+        li {color:aqua;}
+    </style>
+</head>
+<body>
+    <ui>
+        <a href="#신상"><li>신상</li></a>
+        <a href="#학력"><li>학력</li></a>
+        <a href="#경력"><li>경력</li></a>
+        <a href="#수상"><li>수상</li></a>
+    </ui>
+<div>
+    <footer>2302561 원희</footer>
+</div>
+</body>
+<img src="C:\Users\w0105\OneDrive\바탕 화면\웹 프론트 실습\중간고사\댕이 사진(웹프).jpg"alt="사진" width="200">
+<br>
+<body>
+    <table id="table1" border="1"><h1 id="신상">신상</h1>
+        <tr>
+          <td>이름</td>
+          <td>원희</td>
+         </tr>
+         <tr>
+            <td>영문</td>
+            <td>wonhee</td>
+         </tr>
+         <tr>
+            <td>생년월일</td>
+            <td>2004.01.11</td>
+         </tr>
+         <tr>
+            <td>주소</td>
+            <td>서울특별시 광진구</td>
+         </tr>
+         <tr>
+            <td>e-mail</td>
+            <td>wonheeann5435@gmail.com</td>
+         </tr>
+         <tr>
+            <td>연락처</td>
+            <td>010-1111-1111</td>
+         </tr>
+    </table>  
+    <br>
+    <table id="table2" border="1"><h2 id="학력">학력</h2>
+        <tr>
+            <td>학교명</td> <td>입학날짜</td> <td>졸업날짜</td> <td>소속</td> <td>학점</td>
+        </tr>
+        <tr>
+            <td>서울경수중학교</td><td>2017.03.02</td><td>2020.1.17</td><td>운동부</td><td>x</td>
+        </tr>
+        <tr>
+            <td>서울의료보건고등학교</td><td>2020.4.16</td><td>2023.01.06</td><td>보건간호과</td><td>x</td>
+        </tr>
+        <tr>
+            <td>옥스포드 대학교</td><td>2023.02.24</td><td>2026.02.13</td><td>경영학과</td><td>4.2</td>
+        </tr>
+    </table>
+    <table id="table3" border="1"><h3 id="경력">경력</h3>
+        <tr>
+            <td>자격증</td><td>발행기관</td><td>기간</td>
+        </tr>
+        <tr>
+            <td>간호조무사자격증</td><td>보건복지부</td><td>평생</td>
+        </tr>
+        <tr>
+            <td>ITQ 파워포인트</td><td>한국생성본부</td><td>2020.9.04~2025.9.04</td>
+        </tr>
+        <tr>
+            <td>ITQ 한글</td><td>한국생성본부</td><td>2020.9.04~2025.9.04</td>
+        </tr>
+    </table>
+    <table id="table4" border="1"><h4 id="수상">수상</h4>
+        <tr>
+            <td>수상</td><td>수상기관</td><td>수상년도</td>
+        </tr>
+        <tr>
+            <td>노벨평화상</td><td>노벨재단</td><td>2022.10.03</td>
+        </tr>
+        <tr>
+            <td>오바마 대통령상</td><td>미국정부</td><td>2018.10.10</td>
+        </tr>
+        <tr>
+            <td>나사 탐사상</td><td>NASA</td><td>2023.04.17</td>
+        </tr>
+    </table>
+    <br>
+    <audio src= "C:\Users\w0105\OneDrive\바탕 화면\웹 프론트 실습\중간고사\웹프 과제용 오디오.m4a"controls="controls"></audio>
+    <br>
+    <br>
+    <video controls="controls">
+        <source src="C:\Users\w0105\OneDrive\바탕 화면\웹 프론트 실습\중간고사\웹프과제용 비디오.mp4" type="video/mp4">
+    </video>
+</body>
+<title>회원가입</title>
+<h1>회원가입</h1>
+<head>
+    <style>
+        input[type="text"]:hover {
+            background-color: rgb(200, 244, 244);
+            cursor: pointer;
+        }
+        
+        input[type="radio"]:hover {
+            background-color: rgb(237, 178, 127);
+            cursor: crosshair;
+        }
+        
+        input[type="file"]:hover {
+            background-color: rgb(211, 176, 232);
+            cursor: pointer;
+        }
+        
+        input[type="date"]:hover {
+            background-color: rgb(243, 180, 243);
+            cursor: pointer;
+        }
+        
+        select:hover {
+            background-color: rgb(186, 247, 89);
+            cursor: pointer;
+        }
+        
+        textarea:hover {
+            background-color: rgb(32, 4, 243);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<form>
+    <div>
+        <label for="name">이름</label>
+        <input type="text">
+    </div>
+    <br>
+    <div>
+        <label for="gender">성별</label>
+        <input type="radio">
+        <label for="male">남자</label>
+        <input type="radio"checked>
+        <label for="female">여자</label>
+    </div>
+    <br>
+    <div>
+        <input type="file" name="file" value="file"><br>
+    </div>
+    <br>
+    <div>
+        <input type=date name="birthday" value="생년월일">
+        <label for="birthday">음력</label>
+        <input type="radio">
+        <br>
+        <input type=date name="birthday" value="생년월일">
+        <label for="birthday">양력</label>
+        <input type="radio">
+    </div>
+    <br>
+    <div>
+        <label for="age">나이</label>
+        <input type="text">
+    </div>
+    <br>
+    <div>
+        <label for="address">주소</label>
+        <input type="text">
+    </div>
+    <br>
+    <div>
+        <label for="reasons for joining">가입 이유:</label>
+        <select>
+            <option value="1">취업을 준비하기 위해서</option>
+            <option value="2">자기 계발을 위해서</option>
+            <option value="3">취미</option>
+            <option value="4">관심 있어서</option>
+            <option value="5">다양한 것을 경험하고 싶어서</option>
+          </select>
+    </div>
+    <br>
+    <div>
+        <label for="captcha">로봇방지:</label>
+        <input type="text" placeholder="보안문자 입력" />
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="가입">
+    </div>
+</form>
+
